@@ -1,4 +1,4 @@
-package br.com.mfsdevsystemawsapi;
+package br.com.mfsdevsystem.awsapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
