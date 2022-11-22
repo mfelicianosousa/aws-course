@@ -1,12 +1,16 @@
 package br.com.mfsdevsystem.awsapi.entity;
 
+import java.io.Serializable;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @NoArgsConstructor
 @Getter @Setter
-public class DetailedMachine extends Machine{
+public class DetailedMachine extends Machine implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	private String javaVersion;
 	private String javaVendor;

@@ -1,6 +1,10 @@
 package br.com.mfsdevsystem.awsapi.entity;
 
-public class Machine {
+import java.io.Serializable;
+
+public class Machine implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	private String ip;
 	private String name;
