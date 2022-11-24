@@ -1,4 +1,4 @@
-package br.com.mfsdevsystemawsapi;
+package br.com.mfsdevsystem.awsapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

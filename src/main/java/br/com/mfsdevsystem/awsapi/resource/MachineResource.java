@@ -1,5 +1,6 @@
 package br.com.mfsdevsystem.awsapi.resource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,7 @@ import br.com.mfsdevsystem.awsapi.service.MachineService;
 @RequestMapping(value="machines")
 public class MachineResource {
 	
-	@AutoWired
+	@Autowired
 	private MachineService machineService;
 	
 	
